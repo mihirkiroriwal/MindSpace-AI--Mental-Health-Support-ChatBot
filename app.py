@@ -20,7 +20,7 @@ def speak(text):
 
 
 st.set_page_config(page_title="Mental Health AI")
-st.title("🧠 Mental Health Support Chat")
+st.title(" MindSpace AI - Mental Health Support Chat")
 st.caption("A safe place to talk when things feel overwhelming.")
 st.divider()
 
@@ -74,7 +74,7 @@ Mirror user language.
         }
 
         try:
-            with st.spinner("🤖 Thinking..."):
+            with st.spinner(" Thinking..."):
 
                 response = ollama.chat(
                     model="llama3",
